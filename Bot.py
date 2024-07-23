@@ -1,8 +1,8 @@
 from telethon.sync import TelegramClient, events
 import asyncio
 
-api_id = 24509589
-api_hash = '717cf21d94c4934bcbe1eaa1ad86ae75'
+api_id = 21160213
+api_hash = '3947b8737fd71b5c58edc1da33bd0e87'
 done = 0
 
 # Read the total number of lines in cc.txt
