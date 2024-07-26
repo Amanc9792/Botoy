@@ -44,7 +44,7 @@ async def handle_message(event):
         await client.disconnect()
 
 async def send_message_to_sdbb_bot(cc):
-    await client.send_message('SDBB_Bot', f'/vbv {cc}')
+    await client.send_message('SDBB_Bot', f'/chk {cc}')
     await asyncio.sleep(5)  # 5-second interval
 
 async def main():
